@@ -1,0 +1,10 @@
+meter_id,site_name,tariff,kwh_consumed,unit,billing_start,billing_end,amount_inr
+MET-MNS-001,Manesar Plant,B1,42500,kWh,14-Feb-2024,13-Mar-2024,319875
+MET-MNS-001,Manesar Plant,B1,38900,kWh,14-Mar-2024,12-Apr-2024,292425
+MET-GGN-002,Gurgaon Office,B2,12300,kWh,01-Jan-2024,31-Jan-2024,98400
+MET-GGN-002,Gurgaon Office,B2,11850,,01-Feb-2024,29-Feb-2024,94800
+MET-PUN-003,Pune Data Centre,B1,185000,kWh,15-Jan-2024,14-Feb-2024,1572500
+MET-PUN-003,Pune Data Centre,B1,1200000,kWh,15-Feb-2024,14-Mar-2024,10200000
+MET-CHN-004,Chennai Warehouse,B2,,kWh,01-Mar-2024,31-Mar-2024,0
+MET-CHN-004,Chennai Warehouse,B2,8750,kWh,31-Mar-2024,01-Mar-2024,70000
+MET-MNS-001,Manesar Plant,B1,55000,kWh,13-Apr-2024,33-Apr-2024,413000

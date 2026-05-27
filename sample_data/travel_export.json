@@ -1,0 +1,62 @@
+{
+    "provider": "MockNavanAPI",
+    "export_date": "2024-04-01T10:00:00Z",
+    "trips": [
+        {
+            "expense_id": "EXP-9901",
+            "employee_id": "E001",
+            "date": "2024-03-10",
+            "category": "flight",
+            "origin": "BLR",
+            "destination": "DEL",
+            "distance_km": null,
+            "cabin_class": "Economy",
+            "amount": 8500,
+            "currency": "INR"
+        },
+        {
+            "expense_id": "EXP-9902",
+            "employee_id": "E002",
+            "date": "2024-03-12",
+            "category": "hotel",
+            "location": "Mumbai, IN",
+            "nights": 3,
+            "amount": 24000,
+            "currency": "INR"
+        },
+        {
+            "expense_id": "EXP-9903",
+            "employee_id": "E001",
+            "date": "2024-03-15",
+            "category": "car_rental",
+            "origin": "DEL",
+            "destination": "AGR",
+            "distance_km": 230,
+            "amount": 4500,
+            "currency": "INR"
+        },
+        {
+            "expense_id": "EXP-9904",
+            "employee_id": "E003",
+            "date": "2024-03-18",
+            "category": "flight",
+            "origin": "BOM",
+            "destination": "LHR",
+            "distance_km": null,
+            "cabin_class": "Business",
+            "amount": 125000,
+            "currency": "INR"
+        },
+        {
+            "expense_id": "EXP-9905",
+            "employee_id": "E002",
+            "date": "2024-03-20",
+            "category": "taxi",
+            "origin": null,
+            "destination": null,
+            "distance_km": null,
+            "amount": 850,
+            "currency": "INR"
+        }
+    ]
+}
