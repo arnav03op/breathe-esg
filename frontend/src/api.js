@@ -1,9 +1,7 @@
-/**
- * Centralised API helper.
- * All calls go through the Vite proxy → Django backend at /api/...
- */
 
-const BASE = '/api';
+// const BASE = '/api';
+const envBase = import.meta.env.VITE_API_BASE_URL?.replace(/\/$/, '');
+const BASE = envBase || '/api';
 
 async function request(path, options = {}) {
   const url = `${BASE}${path}`;
@@ -59,7 +57,7 @@ export async function uploadFile(sourceType, file, companyId) {
   const res = await fetch(`${BASE}/upload/${sourceType}/`, {
     method: 'POST',
     body: form,
-    // Don't set Content-Type — browser sets multipart boundary automatically
+
   });
   if (!res.ok) {
     const body = await res.json().catch(() => ({}));
